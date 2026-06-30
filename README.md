@@ -25,30 +25,6 @@ To ensure the models were accurate and unbiased, the following steps were taken:
 
 ---
 
-## 🚀 How to Use the Code
-
-### Prerequisites
-Ensure you have the following libraries installed:
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-### Usage
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/employee-attrition-prediction.git
-   cd employee-attrition-prediction
-   ```
-2. **Run the analysis:**
-   Open the Jupyter Notebook or run the python script:
-   ```bash
-   jupyter notebook attrition_analysis.ipynb
-   ```
-3. **Interpret the Results:**
-   The code will output a feature importance/coefficient graph. Positive coefficients in the Logistic Regression model indicate factors that **increase** the risk of leaving (e.g., Overtime).
-
----
-
 ## 📈 Key Business Insights
 *   **The Overtime Factor:** Working overtime is the #1 predictor of attrition. Employees working extra hours are significantly more likely to resign.
 *   **Stagnation:** Employees who haven't been promoted in over 2 years show a sharp increase in turnover risk.
